@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>DelegateSerializer</id>
+    <title>Delegate Serializer</title>
+    <version>1.0.1</version>
+    <authors>Craig Noble</authors>
+    <description>Serializes a type of delegate reference to a string, that can restored back to the original delegate. Useful for stateless applications that need to store state in storage such as a payment callback for part of the application</description>
+    <language>en-US</language>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+	<references>
+		<reference file="DelegateSerializer.dll" />
+	</references>
+  </metadata>
+  <files>
+	<file src="..\DelegateSerializer\bin\Release\DelegateSerializer.dll" target="lib" />
+  </files>
+</package>
